@@ -47,14 +47,14 @@ Create table with apex:panelGrid in Salesforce to generate a PDF
 ```
 ###style
 ```
-<style> 
-           .detail td {padding: 5px, 13px}
-            .col1 {width:315px; text-align: left;}
-            .col2 {width:5px; text-align:center; }
-            .col3 {width:75px; text-align: right;}
-            .col4 {width:45px; text-align:center; }     
-            .col5 {width:25px; text-align:center; }     
-            .col6 {width:90px;  text-align: right;}               
+<style type="text/css">
+     .detail td {padding: 5px, 13px}
+     .col1 {width:315px; text-align: left;}
+     .col2 {width:5px; text-align:center; }
+     .col3 {width:75px; text-align: right;}
+     .col4 {width:45px; text-align:center; }     
+     .col5 {width:25px; text-align:center; }     
+     .col6 {width:90px;  text-align: right;}               
  </style>
 ```
 
