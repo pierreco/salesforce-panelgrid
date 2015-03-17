@@ -1,8 +1,8 @@
 #Trick Apex Salesforce
-
+Create table with apex:panelGrid in Salesforce
 
 ##Sample code
-###<body>
+###body
 ```
 <apex:page>
      <apex:panelGrid columns="3" columnClasses="col1, col2, col3" styleClass="detail2" cellspacing="5" cellpadding="8">
@@ -27,7 +27,7 @@
     </apex:panelGrid>
 </apex:page>
 ```
-###<Style>
+###style
 ```
 <style> 
             .detail2{font: 10px; position:fixed; top:350px; left:25px; line-height:2em;}
