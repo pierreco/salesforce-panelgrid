@@ -1,10 +1,10 @@
 #Trick Apex Salesforce
-Create table with apex:panelGrid in Salesforce
+Create table with apex:panelGrid in Salesforce to generate a PDF
 
 ##Sample code
 ###body
 ```
-<apex:page>
+<apex:page renderAs="pdf" applyBodyTag="false">
      <apex:panelGrid columns="3" columnClasses="col1, col2, col3" styleClass="detail2" cellspacing="5" cellpadding="8">
         <apex:outputText >Sample1</apex:outputText>
         <apex:outputText >Sample1</apex:outputText>
