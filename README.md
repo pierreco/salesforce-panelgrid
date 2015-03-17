@@ -5,7 +5,7 @@ Create table with apex:panelGrid in Salesforce to generate a PDF
 ###body
 ```
 <apex:page renderAs="pdf" applyBodyTag="false">
-     <apex:panelGrid columns="3" columnClasses="col1, col2, col3" styleClass="detail2" cellspacing="5" cellpadding="8">
+     <apex:panelGrid columns="3" columnClasses="col1, col2, col3, col4, col5, col6" styleClass="detail">
         <apex:outputText >Sample1</apex:outputText>
         <apex:outputText >Sample1</apex:outputText>
         <apex:outputText >Sample1</apex:outputText>
@@ -24,16 +24,37 @@ Create table with apex:panelGrid in Salesforce to generate a PDF
         <apex:outputText >Sample3</apex:outputText>
         <apex:outputText >Sample3</apex:outputText>
         <apex:outputText >Sample3</apex:outputText>
+        <apex:outputText >Sample4</apex:outputText>
+        <apex:outputText >Sample4</apex:outputText>
+        <apex:outputText >Sample4</apex:outputText>
+        <apex:outputText >Sample4</apex:outputText>
+        <apex:outputText >Sample4</apex:outputText>
+        <apex:outputText >Sample4</apex:outputText>
+        <apex:outputText >Sample5</apex:outputText>
+        <apex:outputText >Sample5</apex:outputText>
+        <apex:outputText >Sample5</apex:outputText>
+        <apex:outputText >Sample5</apex:outputText>
+        <apex:outputText >Sample5</apex:outputText>
+        <apex:outputText >Sample5</apex:outputText>
+        <apex:outputText >Sample6</apex:outputText>
+        <apex:outputText >Sample6</apex:outputText>
+        <apex:outputText >Sample6</apex:outputText>
+        <apex:outputText >Sample6</apex:outputText>
+        <apex:outputText >Sample6</apex:outputText>
+        <apex:outputText >Sample6</apex:outputText>
     </apex:panelGrid>
 </apex:page>
 ```
 ###style
 ```
 <style> 
-            .detail2{font: 10px; position:fixed; top:350px; left:25px; line-height:2em;}
-            .col1 {width:315px; text-align:center;background-color: #00C979;text-align: left;}
-            .col2 {width:5px; text-align:center; background-color: #D94838;}
-            .col3 {width:75px; text-align:center; background-color: #34495E;}             
+           .detail td {padding: 5px, 13px}
+            .col1 {width:315px; text-align: left;}
+            .col2 {width:5px; text-align:center; }
+            .col3 {width:75px; text-align: right;}
+            .col4 {width:45px; text-align:center; }     
+            .col5 {width:25px; text-align:center; }     
+            .col6 {width:90px;  text-align: right;}               
  </style>
 ```
 
